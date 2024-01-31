@@ -1,5 +1,5 @@
 {
-    "name" : "sanjayojha/amazon-paapi5-php-sdk",
+    "name" : "kazirayhan/amazon-paapi5-php-sdk",
     "version" : "1.0.2",
     "keywords" : [
         "amazon",
@@ -14,8 +14,8 @@
     }
     ],
     "require" : {
-        "php" : ">=7.2",
-        "guzzlehttp/guzzle" : "^6.5"
+        "php": "^8.1",
+        "guzzlehttp/guzzle" : "^7.2"
     },
     "autoload": {
         "psr-4": { "Amazon\\ProductAdvertisingAPI\\v1\\" : "src/" }
